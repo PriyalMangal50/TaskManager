@@ -15,7 +15,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "task-manager-indol-two.vercel.app",
     credentials: true,
   })
 );
