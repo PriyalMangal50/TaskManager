@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 
 const TasksContext = createContext();
 
-const serverUrl = "http://localhost:3000";
+const serverUrl = "https://taskmanager-1-lkve.onrender.com";
 
 export const TasksProvider = ({ children }) => {
   const userId = useUserContext().user._id;
